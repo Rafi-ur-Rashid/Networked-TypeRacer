@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="487.0" prefWidth="597.0"  xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="FXMLDocumentController">
+    <children>
+        <Button fx:id="Start" layoutX="195.0" layoutY="57.0" onAction="#handleStart" prefHeight="84.0" prefWidth="177.0" text="Start Game" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="225.0" />
+      <Button fx:id="option" layoutX="195.0" layoutY="190.0" onAction="#handleOption" prefHeight="84.0" prefWidth="177.0" text="Options" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="225.0" />
+      <Button fx:id="Quit" layoutX="195.0" layoutY="327.0" onAction="#handleQuit" prefHeight="84.0" prefWidth="177.0" text="Quit" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="225.0" />
+    </children>
+</AnchorPane>

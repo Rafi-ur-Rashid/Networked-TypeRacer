@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: white; -fx-border-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WAITController">
+   <children>
+      <Text fx:id="Tx" layoutX="195.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click Here to Start" wrappingWidth="665.96875">
+         <font>
+            <Font name="Britannic Bold" size="51.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="384.0" fitWidth="417.0" layoutX="195.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@thumbs-up-192.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

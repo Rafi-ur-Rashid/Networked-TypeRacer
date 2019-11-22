@@ -1,0 +1,2 @@
+50: (Beginner): Mash: 10
+100: (Beginner): Sakib: 20

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: white; -fx-border-color: blue;" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="Back" layoutX="23.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="39.0" prefWidth="70.0" text="Back" />
+      <TextArea fx:id="TEXT" editable="false" layoutX="75.0" layoutY="313.0" prefHeight="206.0" prefWidth="651.0" scrollLeft="10.0" scrollTop="10.0" style="-fx-border-color: blue;" text="While." wrapText="true">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="Write" alignment="TOP_LEFT" layoutX="75.0" layoutY="563.0" onKeyTyped="#CollectType" prefHeight="115.0" prefWidth="651.0" promptText="Type Here" style="-fx-border-color: green;">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="car" fitHeight="150.0" fitWidth="200.0" layoutX="67.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@delorean-38103_1280.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="circle" fill="#f84f00c4" layoutX="400.0" layoutY="482.0" radius="174.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fx:id="Ready" layoutX="252.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ready For The Race?" wrappingWidth="315.060546875">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <Button fx:id="yes" layoutX="361.0" layoutY="504.0" mnemonicParsing="false" onAction="#handleYes" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: black;" text="Yes" textFill="#f8f7f7">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Label fx:id="L1" layoutX="620.0" layoutY="252.0" prefHeight="56.0" prefWidth="106.0" style="-fx-border-color: black;" text="   00 : 00">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="Help" editable="false" layoutX="75.0" layoutY="678.0" prefHeight="83.0" prefWidth="651.0" style="-fx-border-color: red;" wrapText="true">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="car1" fitHeight="150.0" fitWidth="200.0" layoutX="69.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@nascar-race-car-clipart-clipart-panda-free-clipart-images-LXcggy-clipart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car2" fitHeight="115.0" fitWidth="231.0" layoutX="56.0" layoutY="93.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@2014-Koenigsegg-One-1-sideways.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car3" fitHeight="74.0" fitWidth="223.0" layoutX="60.0" layoutY="117.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@mustang-car-clipart-clipart-panda-free-clipart-images-SFgO0g-clipart.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="709.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="111.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="200.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="292.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="387.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="484.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="580.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="670.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="628.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="530.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="436.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="342.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="243.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="155.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="66.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Text fx:id="Wait" layoutX="229.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" text="      Please Wait...." visible="false" wrappingWidth="315.060546875">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="67.0" fitWidth="56.0" layoutX="679.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vlc_256.png" />
+         </image>
+      </ImageView>
+   </children>
+</fx:root>

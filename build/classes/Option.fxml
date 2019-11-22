@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OptionController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@35915385-keyboard-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Score" layoutX="295.0" layoutY="153.0" onAction="#handleScore" opacity="0.88" prefHeight="105.0" prefWidth="210.0" style="-fx-background-color: white;" text="High Score" textFill="#086105">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Bell MT Bold" size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="diff" layoutX="295.0" layoutY="353.0" onAction="#handlediff" opacity="0.91" prefHeight="105.0" prefWidth="210.0" style="-fx-background-color: white;" text="Difficulty">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font name="Bell MT Bold" size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="Sound" layoutX="295.0" layoutY="543.0" onAction="#handleSound" opacity="0.89" prefHeight="105.0" prefWidth="210.0" style="-fx-background-color: white;" text="Sound">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font name="Bell MT Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="43.0" layoutY="38.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="31.0" prefWidth="63.0" text="Back" />
+   <ImageView fx:id="On" fitHeight="67.0" fitWidth="89.0" layoutX="535.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@sound-volume-icon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Off" fitHeight="67.0" fitWidth="89.0" layoutX="642.0" layoutY="555.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@mute-ios-7-interface-symbol_318-34831.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

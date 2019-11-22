@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start_GameController">
+   <children>
+      <ImageView fitHeight="814.0" fitWidth="804.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Backlit_keyboard.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Race" layoutX="314.0" layoutY="515.0" onAction="#handleRace" prefHeight="129.0" prefWidth="197.0" text="Run A Race">
+         <font>
+            <Font name="Bell MT Bold" size="28.0" />
+         </font></Button>
+      <Button fx:id="Prac" layoutX="314.0" layoutY="210.0" onAction="#handlePrac" prefHeight="129.0" prefWidth="197.0" text="Practice Mood">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font></Button>
+      <Button fx:id="Back" layoutX="21.0" layoutY="29.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="43.0" prefWidth="78.0" text="Back" />
+   </children>
+</AnchorPane>

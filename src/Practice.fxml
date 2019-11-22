@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: white; -fx-border-color: blue;" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="23.0" layoutY="20.0" mnemonicParsing="false" onAction="#handle_Back" prefHeight="38.0" prefWidth="70.0" text="Back" />
+      <TextField fx:id="Write" alignment="TOP_LEFT" layoutX="86.0" layoutY="548.0" onKeyTyped="#CollectType" prefHeight="115.0" prefWidth="651.0" promptText="Type Here" style="-fx-border-color: green;">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="TEXT" editable="false" layoutX="82.0" layoutY="293.0" prefHeight="206.0" prefWidth="651.0" scrollLeft="10.0" scrollTop="10.0" style="-fx-border-color: blue;" text=" " wrapText="true">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="car1" fitHeight="150.0" fitWidth="200.0" layoutX="69.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@nascar-race-car-clipart-clipart-panda-free-clipart-images-LXcggy-clipart.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="L1" layoutX="625.0" layoutY="234.0" prefHeight="50.0" prefWidth="108.0" style="-fx-border-color: black;" text="   00 : 00">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circle" fill="#3698e3c4" layoutX="407.0" layoutY="442.0" radius="161.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fx:id="Ready" layoutX="292.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are You Ready?" wrappingWidth="252.060546875">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <Button fx:id="yes" layoutX="368.0" layoutY="489.0" mnemonicParsing="false" onAction="#handleYes" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: black;" text="Yes" textFill="#f8f7f7">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="Help" editable="false" layoutX="86.0" layoutY="663.0" prefHeight="87.0" prefWidth="651.0" style="-fx-border-color: red;" wrapText="true">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="car2" fitHeight="115.0" fitWidth="231.0" layoutX="56.0" layoutY="93.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@2014-Koenigsegg-One-1-sideways.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="car3" fitHeight="74.0" fitWidth="223.0" layoutX="60.0" layoutY="117.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@mustang-car-clipart-clipart-panda-free-clipart-images-SFgO0g-clipart.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="69.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="158.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="246.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="345.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="439.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="533.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="631.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="673.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="583.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="487.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="390.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="295.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="203.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="114.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff0808" height="7.0" layoutX="712.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="25.0" />
+      <ImageView fitHeight="60.0" fitWidth="61.0" layoutX="684.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vlc-media-player-icon-19.png" />
+         </image>
+      </ImageView>
+   </children>
+</fx:root>

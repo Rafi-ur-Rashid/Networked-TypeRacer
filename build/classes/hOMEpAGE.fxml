@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="800.0" style="-fx-background-image: url('C:\Users\ASUS\Documents\PROGRAMS\Netbeans\TypeRacer\src\background.jpg');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hOMEpAGEController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="27.0" layoutY="38.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="43.0" prefWidth="79.0" text="Back">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <TextField fx:id="UserName" layoutX="301.0" layoutY="367.0" prefHeight="88.0" prefWidth="335.0" promptText="Type Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </TextField>
+      <Label layoutX="80.0" layoutY="367.0" prefHeight="88.0" prefWidth="181.0" text="  UserName :">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="label" layoutX="279.0" layoutY="178.0" minHeight="16" minWidth="69" prefHeight="142.0" prefWidth="350.0" text="  Welcome Guest!">
+         <font>
+            <Font name="Britannic Bold" size="45.0" />
+         </font>
+      </Label>
+      <Button fx:id="button" layoutX="533.0" layoutY="541.0" onAction="#handleButtonAction" prefHeight="65.0" prefWidth="103.0" text="Log in">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

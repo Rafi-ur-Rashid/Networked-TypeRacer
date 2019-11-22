@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartPageController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1024x768-data-out-137-36580058-keyboard-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Quit" layoutX="295.0" layoutY="560.0" onAction="#handleQuit" opacity="0.89" prefHeight="105.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: red;" text="Quit" textFill="#086105">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font name="Bell MT Bold" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="option" layoutX="295.0" layoutY="352.0" onAction="#handleOption" opacity="0.91" prefHeight="105.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: black;" text="Option">
+         <effect>
+            <Glow />
+         </effect>
+         <font>
+            <Font name="Bell MT Bold" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="Start" layoutX="295.0" layoutY="135.0" onAction="#handleStart" opacity="0.88" prefHeight="105.0" prefWidth="210.0" style="-fx-background-color: white; -fx-border-color: blue;" text="Start Game" textFill="#086105">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font name="Bell MT" size="32.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

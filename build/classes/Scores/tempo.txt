@@ -1,0 +1,10 @@
+(Beginner): Rafi: 20
+(Beginner): Tafi: 20
+(Beginner): Dan: 12
+(Beginner): Grey: 15
+(Beginner): Jute: 5
+(Beginner): Teddy: 15
+(Beginner): Tear: 12
+(Beginner): Beer: 15
+(Beginner): Monir: 12
+(Beginner): Rafe: 12

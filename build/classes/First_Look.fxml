@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="First_LookController">
+   <children>
+      <ImageView fx:id="image" fitHeight="600.0" fitWidth="800.0" onMouseClicked="#handleLoad" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@18729526-Female-hands-typing-on-the-laptop-with-flying-letters-Stock-Photo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="6.0" layoutY="4.0" text="Typeracer.com@all rights-reserved" textFill="#fcf8f8" />
+      <Label layoutX="542.0" layoutY="121.0" prefHeight="97.0" prefWidth="160.0" text="  TYPE" textFill="#eaff00">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="539.0" layoutY="187.0" prefHeight="109.0" prefWidth="171.0" text=" RACER" textFill="#eaff00">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="load" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="15.0" layoutY="518.0" stroke="#e80808" strokeType="INSIDE" width="10.0" />
+      <Label layoutX="6.0" layoutY="480.0" text="Loading......" textFill="#e80d0d">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

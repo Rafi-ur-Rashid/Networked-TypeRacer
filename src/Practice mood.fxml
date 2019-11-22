@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="602.0" prefWidth="778.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Practice">
+   <children>
+      <TextArea fx:id="TEXT" editable="false" layoutX="66.0" layoutY="212.0" prefHeight="154.0" prefWidth="646.0" scrollLeft="10.0" scrollTop="10.0" style="-fx-background-color: #58efea;" text="Money can't buy happiness rather it sometimes bring miseris">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </TextArea>
+      <TextField fx:id="Write" alignment="TOP_LEFT" layoutX="66.0" layoutY="416.0" onKeyTyped="#CollectType" prefHeight="131.0" prefWidth="646.0" promptText="Type Here" style="-fx-alignment: #58efea;">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <ImageView fx:id="car" fitHeight="150.0" fitWidth="200.0" layoutX="38.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@delorean-38103_1280.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="693.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="35.0" prefWidth="64.0" text="Back" textFill="#590d90">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

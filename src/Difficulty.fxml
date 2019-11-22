@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DifficultyController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@35886209-keyboard-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="31.0" layoutY="39.0" mnemonicParsing="false" onAction="#handle_Back" prefHeight="43.0" prefWidth="78.0" text="Back" />
+      <Button layoutX="324.0" layoutY="154.0" onAction="#handleBeg" prefHeight="119.0" prefWidth="197.0" text="Beginner">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="324.0" layoutY="544.0" onAction="#handleProf" prefHeight="119.0" prefWidth="197.0" text="Professional">
+         <font>
+            <Font name="Bell MT Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="324.0" layoutY="352.0" onAction="#handleMat" prefHeight="119.0" prefWidth="197.0" text="Matured">
+         <font>
+            <Font name="Bell MT Bold" size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
